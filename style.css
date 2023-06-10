@@ -70,10 +70,14 @@ main{
     color: #073c64;
     margin-bottom: 3%;
     font-size: 25px;
+    vertical-align: middle;
+    padding-bottom: 1px;
+    
 }
 .skills li{
     font-size: 20px;
     margin-bottom: 20px;
+    color: #222222;
 }
 ul{
     list-style-type: circle;
@@ -94,7 +98,10 @@ ul{
     margin-bottom: 20px;
 }
 .skills img{
-    vertical-align: bottom;
+    vertical-align: middle;
+    border-radius: 100px;
+    border: 3px solid #073c64;
+    padding: 3px;
 }
 .director h2{
     display: inline-block;
@@ -106,6 +113,10 @@ ul{
 }
 .dev ul{
     margin-top: 30px;
+}
+.circle{
+    list-style-type: disc;
+    font-weight: 400;
 }
 .dateCont{
     margin-bottom: 20px;
@@ -151,4 +162,8 @@ a{
 }
 .QR p{
     font-size: 15px;
+}
+.QR img{
+    border-radius: 0%;
+    border: none;
 }
