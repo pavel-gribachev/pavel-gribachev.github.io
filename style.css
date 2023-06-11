@@ -23,13 +23,13 @@ header{
     float: right;
     margin-right: 7%;
     /* background-color: aqua; */
-    margin-top: 7%;
+    margin-top: 2%;
 }
 .container img{
     width: 350px;
     height: 350px;
     object-fit: cover;
-    margin-top: 7%;
+    margin-top: 2%;
     margin-left: 5%;
 }
 .pavelInfo h2{
@@ -72,7 +72,7 @@ main{
     font-size: 25px;
     vertical-align: middle;
     padding-bottom: 1px;
-    
+    font-weight: 700;
 }
 .skills li{
     font-size: 20px;
@@ -166,4 +166,22 @@ a{
 .QR img{
     border-radius: 0%;
     border: none;
+}
+.ref{
+    text-align: center;
+    background-color: #ffffff;
+}
+.ref a{
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 1%;
+}
+.ref img{
+    margin-right: 70px;
+    width: 40px;
+    height: 40px;
+}
+.ref p{
+    margin-right: 50%;
+    font-weight: 700;
 }
